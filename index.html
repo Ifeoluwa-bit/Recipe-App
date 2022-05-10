@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!--custom css fle link-->
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe App</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="meal-wrapper">
+
+            <div class="meal-search">
+
+                <h2 class="title">Find Meals for Your Ingredients</h2>
+
+                <blockquote>I believe that anyone can cook a great meal. Basically all you need to do is get your hands on some fresh ingredients and not be afraid to make a mess in the kitchen.
+                    <br>
+                    <cite>- Nadia Giosia</cite>
+                </blockquote>
+
+                <div class="meal-search-box">
+                    <input type="text" class="search-control"  placeholder="Enter an ingredient" id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+
+            </div>
+
+            <div class="meal-result">
+
+                <h2 class="title">Your Search Results:</h2>
+
+                <div id="meal">
+                    <!--meal item starts-->
+                    <!--<div class="meal-item">
+
+                        <div class="meal-img">
+                            <img src="food-img.png" alt="spaghetti">
+                        </div>
+
+                        <div class="meal-name">
+                            <h3>Spaghetti</h3>
+                            <a href="#" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    
+                    </div> -->
+                   
+                </div>
+
+            </div>
+
+            <div class="meal-details">
+                <!--recipe close btn-->
+                <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <!--meal content-->
+                <div class="meal-details-content">
+
+                    <h2 class="recipe-title">Meals Name Here</h2>
+
+                    <p class="recipe-category">Category Name</p>
+
+                    <div class="recipe-instruct">
+                        <h3>Instructions:</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam numquam labore tempora nesciunt odit libero aliquid modi, inventore excepturi corrupti?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, mollitia?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste debitis ullam, voluptatibus atque numquam quisquam sequi voluptates rerum ab minima.</p>
+                    </div>
+
+                    <div class="recipe-meal-img">
+                        <img src="food-img.png" alt="food">
+                    </div>
+
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">Watch Video</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--custom javascript file link-->
+    <script src="script.js"></script>
+</body>
+</html>
